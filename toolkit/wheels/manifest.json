@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "built_date": "2026-10-29",
+  "python": "CPython3.12.14 WindowsAMD64",
+  "source_date_epoch": 315532800,
+  "build_tools": {
+    "pip": "26.2.2",
+    "setuptools": "84.2.1",
+    "wheel": "0.48.0",
+    "packaging": "26.3"
+  },
+  "wheels": [
+    {
+      "name": "cuid",
+      "version": "0.4",
+      "source": {
+        "path": "toolkit/wheels/sources/cuid-0.4.tar.gz",
+        "sha256": "74eaba154916a2240405c3631acee708c263ef8fa05a86820b87d0f59f84e978",
+        "bytes": 4986,
+        "url": "https://files.pythonhosted.org/packages/55/ca/d323556e2bf9bfb63219fbb849ce61bb830cc42d1b25b91cde3815451b91/cuid-0.4.tar.gz"
+      },
+      "wheel": {
+        "path": "toolkit/wheels/cuid-0.4-py2.py3-none-any.whl",
+        "sha256": "9210bffe5e4e29dff947ce82297061c84818e024a7019ca35c222589ec5dcfa6",
+        "bytes": 4823
+      },
+      "license": "Apache-2.0; retain full bundled notices for vendored material",
+      "notices": [
+        "toolkit/wheels/notices/cuid/LICENSE"
+      ]
+    },
+    {
+      "name": "fire",
+      "version": "0.4.0",
+      "source": {
+        "path": "toolkit/wheels/sources/fire-0.4.0.tar.gz",
+        "sha256": "c5e2b8763699d1142393a46d0e3e790c5eb2f0706082df8f647878842c216a62",
+        "bytes": 87684,
+        "url": "https://files.pythonhosted.org/packages/11/07/a119a1aa04d37bc819940d95ed7e135a7dcca1c098123a3764a6dcace9e7/fire-0.4.0.tar.gz"
+      },
+      "wheel": {
+        "path": "toolkit/wheels/fire-0.4.0-py2.py3-none-any.whl",
+        "sha256": "5d70e0964e5193a6e2b43cbd000f06d81e8af1a095784fc30ac8a9b81a709d45",
+        "bytes": 116028
+      },
+      "license": "Apache-2.0; retain full bundled notices for vendored material",
+      "notices": [
+        "toolkit/wheels/notices/fire/LICENSE"
+      ]
+    },
+    {
+      "name": "func-timeout",
+      "version": "4.3.5",
+      "source": {
+        "path": "toolkit/wheels/sources/func_timeout-4.3.5.tar.gz",
+        "sha256": "74cd3c428ec94f4edfba81f9b2f14904846d5ffccc27c92433b8b5939b5575dd",
+        "bytes": 44264,
+        "url": "https://files.pythonhosted.org/packages/b3/0d/bf0567477f7281d9a3926c582bfef21bff7498fc0ffd3e9de21811896a0b/func_timeout-4.3.5.tar.gz"
+      },
+      "wheel": {
+        "path": "toolkit/wheels/func_timeout-4.3.5-py3-none-any.whl",
+        "sha256": "af9fc8958fda6a8dfa7c704dd088a720b3f8916e3955f455f1f5c2e78f905d7b",
+        "bytes": 15193
+      },
+      "license": "LGPL-3.0-only (runtime); LGPL-2.1-only (setup.py); upstream metadata differs",
+      "notices": [
+        "toolkit/wheels/notices/func-timeout/LICENSE"
+      ]
+    },
+    {
+      "name": "ibm-cos-sdk",
+      "version": "2.14.3",
+      "source": {
+        "path": "toolkit/wheels/sources/ibm_cos_sdk-2.14.3.tar.gz",
+        "sha256": "643b6f2aa1683adad7f432df23407d11ae5adb9d9ad01214115bee77dc64364a",
+        "bytes": 58831,
+        "url": "https://files.pythonhosted.org/packages/98/b8/b99f17ece72d4bccd7e75539b9a294d0f73ace5c6c475d8f2631afd6f65b/ibm_cos_sdk-2.14.3.tar.gz"
+      },
+      "wheel": {
+        "path": "toolkit/wheels/ibm_cos_sdk-2.14.3-py3-none-any.whl",
+        "sha256": "7cc20770627ab0fd8decdb43ee70ce4d646ce020c7e451d04430070c2f685f29",
+        "bytes": 77349
+      },
+      "license": "Apache-2.0; retain full bundled notices for vendored material",
+      "notices": [
+        "toolkit/wheels/notices/ibm-cos-sdk/LICENSE"
+      ]
+    },
+    {
+      "name": "ibm-cos-sdk-core",
+      "version": "2.14.3",
+      "source": {
+        "path": "toolkit/wheels/sources/ibm_cos_sdk_core-2.14.3.tar.gz",
+        "sha256": "85dee7790c92e8db69bf39dae4c02cac211e3c1d81bb86e64fa2d1e929674623",
+        "bytes": 1103637,
+        "url": "https://files.pythonhosted.org/packages/7e/45/80c23aa1e13175a9deefe43cbf8e853a3d3bfc8dfa8b6d6fe83e5785fe21/ibm_cos_sdk_core-2.14.3.tar.gz"
+      },
+      "wheel": {
+        "path": "toolkit/wheels/ibm_cos_sdk_core-2.14.3-py3-none-any.whl",
+        "sha256": "81e9d86ee1f2382d5fcfa7c96a9216be1ade85ce255ba92391ea45bfe4e0247c",
+        "bytes": 662220
+      },
+      "license": "Apache-2.0; retain full bundled notices for vendored material",
+      "notices": [
+        "toolkit/wheels/notices/ibm-cos-sdk-core/LICENSE.txt",
+        "toolkit/wheels/notices/ibm-cos-sdk-core/NOTICE",
+        "toolkit/wheels/notices/ibm-cos-sdk-core/tests/unit/auth/aws4_testsuite/LICENSE",
+        "toolkit/wheels/notices/ibm-cos-sdk-core/tests/unit/auth/aws4_testsuite/NOTICE"
+      ]
+    },
+    {
+      "name": "ibm-cos-sdk-s3transfer",
+      "version": "2.14.3",
+      "source": {
+        "path": "toolkit/wheels/sources/ibm_cos_sdk_s3transfer-2.14.3.tar.gz",
+        "sha256": "2251ebfc4a46144401e431f4a5d9f04c262a0d6f95c88a8e71071da056e55f72",
+        "bytes": 139594,
+        "url": "https://files.pythonhosted.org/packages/f3/ff/c9baf0997266d398ae08347951a2970e5e96ed6232ed0252f649f2b9a7eb/ibm_cos_sdk_s3transfer-2.14.3.tar.gz"
+      },
+      "wheel": {
+        "path": "toolkit/wheels/ibm_cos_sdk_s3transfer-2.14.3-py3-none-any.whl",
+        "sha256": "51e0e64b3ada02378a721eaa5b47ec509fbd2d01bf7fd071013f125c16c5a7e4",
+        "bytes": 90322
+      },
+      "license": "Apache-2.0; retain full bundled notices for vendored material",
+      "notices": [
+        "toolkit/wheels/notices/ibm-cos-sdk-s3transfer/LICENSE.txt",
+        "toolkit/wheels/notices/ibm-cos-sdk-s3transfer/NOTICE.txt"
+      ]
+    }
+  ]
+}

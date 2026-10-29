@@ -1,0 +1,121 @@
+{
+  "retrieved_date": "2026-10-28",
+  "npm_version": "11.16.0",
+  "node_version": "24.18.0",
+  "policy": "package-lock-only --ignore-scripts; no node_modules or runtime execution; owned empty user/global configs and cache",
+  "tools": {
+    "openspec": {
+      "packages": 57,
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "lifecycle": [],
+      "lock_sha256": "51b1bf07437c6487a7b15a61ecdd941b23eafa8dbb86b450bb7b4c685741b848",
+      "audit_sha256": "fbd32c910809fd8e9de5af0ad297f8aa63eef30a572a1d7e39573bf9b1822884"
+    },
+    "promptfoo": {
+      "packages": 685,
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 7,
+        "critical": 0,
+        "total": 7
+      },
+      "lifecycle": [
+        {
+          "path": "node_modules/esbuild",
+          "version": "0.28.2",
+          "source": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+          "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA=="
+        },
+        {
+          "path": "node_modules/fsevents",
+          "version": "2.3.3",
+          "source": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+          "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+        }
+      ],
+      "lock_sha256": "486cca4e12f5694d94ca32c6edb60b8474062ee6eb031c35f41fcff33cfaf4ed",
+      "audit_sha256": "5cb1b72d2c7cdea2939b4181ce7a9ebbb2d8f5d9e66a5dd27d6f80406179ab00"
+    },
+    "cline": {
+      "packages": 327,
+      "vulnerabilities": {
+        "info": 0,
+        "low": 4,
+        "moderate": 11,
+        "high": 9,
+        "critical": 2,
+        "total": 26
+      },
+      "lifecycle": [
+        {
+          "path": "node_modules/cline",
+          "version": "3.0.74",
+          "source": "https://registry.npmjs.org/cline/-/cline-3.0.74.tgz",
+          "integrity": "sha512-pCaRaJ6Jx50Urej+BYjpGkpZnFbPDCPsibKEbIjEuVxETXbZ/A1SMij8Thy8FobercevXX6hV7joAzU7OG5lzA=="
+        },
+        {
+          "path": "node_modules/protobufjs",
+          "version": "7.6.6",
+          "source": "https://registry.npmjs.org/protobufjs/-/protobufjs-7.6.6.tgz",
+          "integrity": "sha512-dYDWdjSl5RNb7SgPxGQcRU+GtvP7s2fpkrY0r432PcOIaZ0/rBcxEZnQN67iJhFuQiVw754JDoPruPCNdGsbjg=="
+        }
+      ],
+      "lock_sha256": "8668165feeed2068738ad2ed0208dad10bed327bb9461c7100f1408012db044a",
+      "audit_sha256": "b3647a03604b418dc9544f25fd510bdf8e9414f5af3893fb2b2b020d3e9775c2"
+    },
+    "openhands": {
+      "packages": 578,
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 1,
+        "high": 3,
+        "critical": 1,
+        "total": 5
+      },
+      "lifecycle": [
+        {
+          "path": "node_modules/@heroui/shared-utils",
+          "version": "2.1.12",
+          "source": "https://registry.npmjs.org/@heroui/shared-utils/-/shared-utils-2.1.12.tgz",
+          "integrity": "sha512-0iCnxVAkIPtrHQo26Qa5g0UTqMTpugTbClNOrEPsrQuyRAq7Syux998cPwGlneTfB5E5xcU3LiEdA9GUyeK2cQ=="
+        },
+        {
+          "path": "node_modules/@openhands/agent-canvas",
+          "version": "1.34.0",
+          "source": "https://registry.npmjs.org/@openhands/agent-canvas/-/agent-canvas-1.34.0.tgz",
+          "integrity": "sha512-1/XtmD1IcaXevKzjakUQDVCpV4W5f7s1+mP9YTQ6LqaopNsHeR7mVzzlnrKhY6K86xajz7jgI8d4vBrXRCL9Eg=="
+        },
+        {
+          "path": "node_modules/@openrouter/sdk",
+          "version": "1.5.14",
+          "source": "https://registry.npmjs.org/@openrouter/sdk/-/sdk-1.5.14.tgz",
+          "integrity": "sha512-4p40NLQYG8mOTdDWnaXUqsgwFOFEDhlQrcy7tNSuw9SkE/mDU4Kzt2As5SkPPRFtpEOTTtcFIZlZfG3+xJgwog=="
+        },
+        {
+          "path": "node_modules/core-js",
+          "version": "3.51.0",
+          "source": "https://registry.npmjs.org/core-js/-/core-js-3.51.0.tgz",
+          "integrity": "sha512-7bDKx/5jm5MxzsXxc93g6Z2+4ZsuT/MddrfRmTDJNAkWsYWHU8EVNEsBiIEWnMAMCHMmRfUEjkuo3jeNBOIHRw=="
+        },
+        {
+          "path": "node_modules/fsevents",
+          "version": "2.3.3",
+          "source": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+          "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+        }
+      ],
+      "lock_sha256": "afdad1bc4d0cab69b43e957109d98b623cba7fbb5cc1f692850b987ecd0ba9d1",
+      "audit_sha256": "b6e172aad1a7a87de10ab74e44543dc990283f1022fa53068dbe3e46eff3765c"
+    }
+  }
+}

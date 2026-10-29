@@ -1,0 +1,200 @@
+[
+  {
+    "package": "esbuild",
+    "version": "0.28.2",
+    "scripts": {
+      "postinstall": "node install.js"
+    },
+    "source": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+    "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==",
+    "reviewed_files": [
+      {
+        "path": "package/install.js",
+        "sha256": "612294e278914443bdcf81cb17f54afec34dbdd2ebd999a6ee187912320cc315"
+      }
+    ],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  },
+  {
+    "package": "fsevents",
+    "version": "2.3.3",
+    "scripts": {
+      "test": "/bin/bash ./test.sh 2>/dev/null",
+      "build": "node-gyp clean && rm -f fsevents.node && node-gyp rebuild && node-gyp clean",
+      "clean": "node-gyp clean && rm -f fsevents.node",
+      "install": "node-gyp rebuild",
+      "prepublishOnly": "npm run build"
+    },
+    "source": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+    "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+    "reviewed_files": [],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  },
+  {
+    "package": "cline",
+    "version": "3.0.74",
+    "scripts": {
+      "postinstall": "node ./postinstall.mjs || true"
+    },
+    "source": "https://registry.npmjs.org/cline/-/cline-3.0.74.tgz",
+    "integrity": "sha512-pCaRaJ6Jx50Urej+BYjpGkpZnFbPDCPsibKEbIjEuVxETXbZ/A1SMij8Thy8FobercevXX6hV7joAzU7OG5lzA==",
+    "reviewed_files": [
+      {
+        "path": "package/postinstall.mjs",
+        "sha256": "d530c5980c8c17cd44eae229bd708fa71ff18d67db0569e0ecdedad3a7533459"
+      }
+    ],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  },
+  {
+    "package": "protobufjs",
+    "version": "7.6.6",
+    "scripts": {
+      "docs": "jsdoc -c config/jsdoc.json -R README.md --verbose --pedantic",
+      "lint": "npm run lint:sources && npm run lint:types",
+      "make": "npm run lint:sources && npm run build && npm run lint:types && node ./scripts/gentests.js && npm test",
+      "prof": "node bench/prof",
+      "test": "npm run test:sources && npm run test:types",
+      "bench": "node bench",
+      "build": "npm run build:bundle && npm run build:types",
+      "pages": "node scripts/pages",
+      "coverage": "npm run coverage:test && npm run coverage:report",
+      "changelog": "node scripts/changelog -w",
+      "lint:types": "tslint \"**/*.d.ts\" -e \"**/node_modules/**\" -t stylish -c config/tslint.json",
+      "prepublish": "cd cli && npm install && cd .. && npm run build",
+      "test:types": "tsc tests/comp_typescript.ts --lib es2015 --esModuleInterop --strictNullChecks --experimentalDecorators --emitDecoratorMetadata && tsc tests/data/test.js.ts --lib es2015 --esModuleInterop --noEmit --strictNullChecks && tsc tests/data/*.ts --lib es2015 --esModuleInterop --noEmit --strictNullChecks",
+      "build:types": "node cli/bin/pbts --main --global protobuf --out index.d.ts src/ lib/aspromise/index.js lib/base64/index.js lib/codegen/index.js lib/eventemitter/index.js lib/float/index.js lib/fetch/index.js lib/path/index.js lib/pool/index.js lib/utf8/index.js",
+      "postinstall": "node scripts/postinstall",
+      "build:bundle": "gulp --gulpfile scripts/gulpfile.js",
+      "lint:sources": "eslint \"**/*.js\" -c config/eslint.json",
+      "test:sources": "tape -r ./lib/tape-adapter tests/*.js tests/node/*.js",
+      "coverage:test": "nyc --silent tape -r ./lib/tape-adapter tests/*.js tests/node/*.js",
+      "prepublishOnly": "cd cli && npm install && cd .. && npm run build",
+      "coverage:report": "nyc report --reporter=lcov --reporter=text"
+    },
+    "source": "https://registry.npmjs.org/protobufjs/-/protobufjs-7.6.6.tgz",
+    "integrity": "sha512-dYDWdjSl5RNb7SgPxGQcRU+GtvP7s2fpkrY0r432PcOIaZ0/rBcxEZnQN67iJhFuQiVw754JDoPruPCNdGsbjg==",
+    "reviewed_files": [
+      {
+        "path": "package/scripts/postinstall.js",
+        "sha256": "5af8463b97ee8e309b4a2111f9479bacdf0c180de0ca0155527679b1fc6d9e6c"
+      }
+    ],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  },
+  {
+    "package": "@heroui/shared-utils",
+    "version": "2.1.12",
+    "scripts": {
+      "dev": "pnpm build:fast --watch",
+      "build": "tsup src --dts",
+      "clean": "rimraf dist .turbo",
+      "postbuild": "npm run postinstall",
+      "typecheck": "tsc --noEmit",
+      "build:fast": "tsup src",
+      "postinstall": "node -e \"try{require('./scripts/postinstall.js')}catch(e){}\""
+    },
+    "source": "https://registry.npmjs.org/@heroui/shared-utils/-/shared-utils-2.1.12.tgz",
+    "integrity": "sha512-0iCnxVAkIPtrHQo26Qa5g0UTqMTpugTbClNOrEPsrQuyRAq7Syux998cPwGlneTfB5E5xcU3LiEdA9GUyeK2cQ==",
+    "reviewed_files": [
+      {
+        "path": "package/scripts/postinstall.js",
+        "sha256": "9c84b680026c356c671acef00d273dbae34653efbade8b5e7dd0b2e42de9db33"
+      }
+    ],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  },
+  {
+    "package": "@openhands/agent-canvas",
+    "version": "1.34.0",
+    "scripts": {
+      "dev": "node --env-file-if-exists=.env scripts/dev-with-automation.mjs",
+      "lint": "npm run typecheck && eslint src && prettier --check src/**/*.{ts,tsx}",
+      "test": "npm run make-i18n && vitest run",
+      "build": "npm run build:app",
+      "start": "npx sirv-cli build/ --single",
+      "desktop": "npm run build:app && electron electron",
+      "dev_wsl": "VITE_WATCH_USE_POLLING=true vite",
+      "prelint": "npm run make-i18n",
+      "prepare": "husky",
+      "preview": "vite preview",
+      "dev:mock": "npm run make-i18n && cross-env VITE_MOCK_API=true react-router dev",
+      "lint:fix": "eslint src --fix && prettier --write src/**/*.{ts,tsx}",
+      "test:e2e": "playwright test --pass-with-no-tests",
+      "build:app": "npm run make-i18n && react-router build",
+      "build:lib": "npm run make-i18n && react-router typegen && cross-env BUILD_LIB=true vite build && tsc -p tsconfig.lib.json",
+      "make-i18n": "node scripts/make-i18n-translations.cjs",
+      "typecheck": "react-router typegen && tsc",
+      "build:mock": "npm run make-i18n && cross-env VITE_MOCK_API=true react-router build",
+      "dev:static": "node --env-file-if-exists=.env scripts/dev-static.mjs",
+      "predesktop": "node scripts/brand-dev-electron.mjs",
+      "dev:minimal": "node --env-file-if-exists=.env scripts/dev-safe.mjs",
+      "download-uv": "node scripts/download-uv.mjs",
+      "postinstall": "node -e \"if (process.env.npm_config_global === 'true') { console.log('\\n\\x1b[32m\\x1b[1m\\u2713 @openhands/agent-canvas installed!\\x1b[0m\\n\\nTo start Agent Canvas, run:\\n\\n  \\x1b[36m\\x1b[1magent-canvas\\x1b[0m\\n\\nThis launches the full stack at \\x1b[36mhttp://localhost:8000\\x1b[0m.\\n\\nDocs: https://docs.openhands.dev/openhands/usage/agent-canvas/setup\\n') }\"",
+      "build:docker": "node scripts/docker-build.mjs",
+      "dev:frontend": "npm run make-i18n && cross-env VITE_MOCK_API=false react-router dev",
+      "build:desktop": "npm run build:app && node scripts/download-uv.mjs && node scripts/download-node.mjs && electron-builder --config electron-builder.config.mjs --publish never",
+      "download-node": "node scripts/download-node.mjs",
+      "test:coverage": "npm run make-i18n && vitest run --coverage",
+      "test:e2e:live": "node --env-file-if-exists=.env tests/e2e/live/scripts/run-live-e2e.mjs",
+      "test:mutation": "npm run make-i18n && stryker run",
+      "generate-icons": "node scripts/generate-icons.mjs",
+      "typecheck:staged": "react-router typegen && npx tsc --noEmit --skipLibCheck",
+      "dev:extra-backend": "node --env-file-if-exists=.env scripts/dev-extra-backend.mjs",
+      "test:e2e:mock-llm": "playwright test --config=playwright.mock-llm.config.ts",
+      "test:mutation:diff": "npm run make-i18n && node scripts/stryker-diff.mjs",
+      "test:e2e:bind-policy": "playwright test --config=playwright.bind-policy.config.ts",
+      "example:acp-docker:env": "node scripts/gen-acp-docker-env.mjs",
+      "build:desktop:universal": "npm run build:app && cross-env ELECTRON_ARCH=universal node scripts/download-uv.mjs && cross-env ELECTRON_ARCH=universal node scripts/download-node.mjs && cross-env ELECTRON_ARCH=universal electron-builder --config electron-builder.config.mjs --publish never",
+      "test:e2e:mock-llm:docker": "playwright test --config=playwright.mock-llm-docker.config.ts",
+      "test:mutation:incremental": "npm run make-i18n && stryker run --incremental",
+      "check-translation-completeness": "node scripts/check-translation-completeness.cjs"
+    },
+    "source": "https://registry.npmjs.org/@openhands/agent-canvas/-/agent-canvas-1.34.0.tgz",
+    "integrity": "sha512-1/XtmD1IcaXevKzjakUQDVCpV4W5f7s1+mP9YTQ6LqaopNsHeR7mVzzlnrKhY6K86xajz7jgI8d4vBrXRCL9Eg==",
+    "reviewed_files": [],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  },
+  {
+    "package": "@openrouter/sdk",
+    "version": "1.5.14",
+    "scripts": {
+      "lint": "eslint --cache --max-warnings=0 src",
+      "test": "vitest --run --project unit",
+      "build": "tsc && node scripts/unbarrel-imports.js",
+      "compile": "tsc && node scripts/unbarrel-imports.js",
+      "prepare": "npm run build",
+      "test:e2e": "vitest --run --project e2e",
+      "typecheck": "tsc --noEmit",
+      "test:watch": "vitest --watch --project unit",
+      "postinstall": "node scripts/check-types.js || true",
+      "test:transit": "exit 0",
+      "prepublishOnly": "npm run build",
+      "typecheck:transit": "exit 0"
+    },
+    "source": "https://registry.npmjs.org/@openrouter/sdk/-/sdk-1.5.14.tgz",
+    "integrity": "sha512-4p40NLQYG8mOTdDWnaXUqsgwFOFEDhlQrcy7tNSuw9SkE/mDU4Kzt2As5SkPPRFtpEOTTtcFIZlZfG3+xJgwog==",
+    "reviewed_files": [],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  },
+  {
+    "package": "core-js",
+    "version": "3.51.0",
+    "scripts": {
+      "postinstall": "node -e \"try{require('./postinstall')}catch(e){}\""
+    },
+    "source": "https://registry.npmjs.org/core-js/-/core-js-3.51.0.tgz",
+    "integrity": "sha512-7bDKx/5jm5MxzsXxc93g6Z2+4ZsuT/MddrfRmTDJNAkWsYWHU8EVNEsBiIEWnMAMCHMmRfUEjkuo3jeNBOIHRw==",
+    "reviewed_files": [
+      {
+        "path": "package/internals/error-stack-install.js",
+        "sha256": "11dc68c9579a3c6942311c66cf37ec3f767984ae36836c0af15ef666d81c80c9"
+      },
+      {
+        "path": "package/postinstall.js",
+        "sha256": "d3b9868d8e5e1f0d63dd75538d15b94deafc10b38fde22dc95ad30b32f83ab8a"
+      }
+    ],
+    "execution": "never executed; npm ci --ignore-scripts is mandatory; tool remains inactive until native probe and script decision"
+  }
+]

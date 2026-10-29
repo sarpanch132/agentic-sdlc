@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "retrieved_date": "2026-10-28",
+  "status": "selected asset rights reviewed; no local unknown modifications redistributed",
+  "skills": [
+    {
+      "id": "brainstorming",
+      "upstream": "https://github.com/obra/superpowers",
+      "version": "v7.0.1",
+      "source": "https://codeload.github.com/obra/superpowers/tar.gz/v7.0.1",
+      "sha256": "2295dd270d929ddbe3f82e43ab5cc6e3dfb4afdbfb56225347394491d34d747d",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "acquisition": "download pinned archive; verify SHA256 before safe extraction; no install scripts run in research",
+      "package_assets": [
+        {
+          "path": "LICENSE",
+          "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+          "bytes": 1070
+        },
+        {
+          "path": "skills/brainstorming/SKILL.md",
+          "sha256": "61a7ef918652108c76a3fd01e02dd92d39996c6b46d4cb2819cbd03f6c45e46a",
+          "bytes": 13602
+        },
+        {
+          "path": "skills/brainstorming/builder-check-prompt.md",
+          "sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+          "bytes": 881
+        },
+        {
+          "path": "skills/brainstorming/scripts/frame-template.html",
+          "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+          "bytes": 8094
+        },
+        {
+          "path": "skills/brainstorming/scripts/helper.js",
+          "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+          "bytes": 5615
+        },
+        {
+          "path": "skills/brainstorming/scripts/server.cjs",
+          "sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+          "bytes": 25699
+        },
+        {
+          "path": "skills/brainstorming/scripts/start-server.sh",
+          "sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+          "bytes": 6908
+        },
+        {
+          "path": "skills/brainstorming/scripts/stop-server.sh",
+          "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+          "bytes": 3263
+        },
+        {
+          "path": "skills/brainstorming/visual-companion.md",
+          "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
+          "bytes": 13413
+        }
+      ],
+      "selected_roots": [
+        "LICENSE",
+        "skills/brainstorming/SKILL.md",
+        "skills/brainstorming/builder-check-prompt.md",
+        "skills/brainstorming/scripts/frame-template.html",
+        "skills/brainstorming/scripts/helper.js",
+        "skills/brainstorming/scripts/server.cjs",
+        "skills/brainstorming/scripts/start-server.sh",
+        "skills/brainstorming/scripts/stop-server.sh",
+        "skills/brainstorming/visual-companion.md"
+      ],
+      "complete_package_policy": "retain references/scripts/data/templates required by selected skill; never only SKILL.md",
+      "local_comparison": {
+        "matched": [
+          "visual-companion.md",
+          "scripts/frame-template.html",
+          "scripts/helper.js",
+          "scripts/start-server.sh",
+          "scripts/stop-server.sh"
+        ],
+        "different": [
+          "SKILL.md",
+          "scripts/server.cjs"
+        ],
+        "not_mapped": [
+          "spec-document-reviewer-prompt.md",
+          "agents/openai.yaml"
+        ]
+      },
+      "modifications": [
+        "Namespaced on-demand adapter; no hooks/watchers/services/global auto activation.",
+        "Ponytail full mode remains coordinator policy."
+      ],
+      "rights_decision": "Scoped selected unchanged upstream assets permitted for redistribution or pinned acquisition with complete notices, per independent skill-rights audit; no restrictive exception found. External linked implementations and unknown local modifications excluded.",
+      "status": "selected rights-reviewed assets; adapter/native host validation pending",
+      "rights_audit": "docs/rights-audit.md"
+    },
+    {
+      "id": "ponytail",
+      "upstream": "https://github.com/DietrichGebert/ponytail",
+      "version": "v5.3.2",
+      "source": "https://codeload.github.com/DietrichGebert/ponytail/tar.gz/v5.3.2",
+      "sha256": "9c0a3f9af533fea03d3d30b7435abaacbd127ddb68427f199416c8b6c3e76220",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "acquisition": "download pinned archive; verify SHA256 before safe extraction; no install scripts run in research",
+      "package_assets": [
+        {
+          "path": "LICENSE",
+          "sha256": "fb1bc6909ac3ef82d5c22106e32ef682b0cff66788fa915fb9b53b15c9d2f3ab",
+          "bytes": 1071
+        },
+        {
+          "path": "skills/ponytail/SKILL.md",
+          "sha256": "9badd22a32e19cb884e46dfa8d3aae82bb81dfa5484105b8b4f0262df823a509",
+          "bytes": 3496
+        }
+      ],
+      "selected_roots": [
+        "LICENSE",
+        "skills/ponytail/SKILL.md"
+      ],
+      "complete_package_policy": "retain references/scripts/data/templates required by selected skill; never only SKILL.md",
+      "local_comparison": {
+        "matched": [],
+        "different": [
+          "SKILL.md"
+        ],
+        "not_mapped": []
+      },
+      "modifications": [
+        "Namespaced on-demand adapter; no hooks/watchers/services/global auto activation.",
+        "Ponytail full mode remains coordinator policy."
+      ],
+      "rights_decision": "Scoped selected unchanged upstream assets permitted for redistribution or pinned acquisition with complete notices, per independent skill-rights audit; no restrictive exception found. External linked implementations and unknown local modifications excluded.",
+      "status": "selected rights-reviewed assets; adapter/native host validation pending",
+      "rights_audit": "docs/rights-audit.md"
+    },
+    {
+      "id": "graphify",
+      "upstream": "https://github.com/Graphify-Labs/graphify",
+      "version": "v0.9.97",
+      "source": "https://codeload.github.com/safishamsi/graphify/tar.gz/v0.9.97",
+      "sha256": "c39e8e25d5134d80dcd97d0392f2e3fab7cb10bdec8128384162c08e998bf3d6",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE",
+        "LICENSE-MIT",
+        "NOTICE"
+      ],
+      "acquisition": "download pinned archive; verify SHA256 before safe extraction; no install scripts run in research",
+      "package_assets": [
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358
+        },
+        {
+          "path": "LICENSE-MIT",
+          "sha256": "36ecff6bbb97aca1be64e95f42538cf796adde5864edac583e620643c096931a",
+          "bytes": 1068
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "3448ea175bba09f6fed8a743000139fb4c7112de83f164355b5540b158576621",
+          "bytes": 335
+        },
+        {
+          "path": "graphify/skill-codex.md",
+          "sha256": "e1150326f0ed06db45e735ecb92b9d3048c9d165d61f61c5ecc728758a9c21f2",
+          "bytes": 48304
+        },
+        {
+          "path": "graphify/skills/codex/references/add-watch.md",
+          "sha256": "1e77351815547334c7e030f018dba513b303d397bf73d11fac47df03ace3b3f4",
+          "bytes": 2704
+        },
+        {
+          "path": "graphify/skills/codex/references/exports.md",
+          "sha256": "c39a2f8062be9a5ac319220d6e66ca586ed0b0798292b1321206834be74c1b33",
+          "bytes": 4774
+        },
+        {
+          "path": "graphify/skills/codex/references/extraction-spec.md",
+          "sha256": "e14c596c524ae8c41c796788af00ae9574ff7c5fe131ecbd2ca9def92a19a9cb",
+          "bytes": 5127
+        },
+        {
+          "path": "graphify/skills/codex/references/github-and-merge.md",
+          "sha256": "e5ebd90c7686f50363ff7a535556bc2f596d4c47ec1e6c8b95e11e36a0dfea2b",
+          "bytes": 2177
+        },
+        {
+          "path": "graphify/skills/codex/references/hooks.md",
+          "sha256": "b9a4e9f66813c6fc720589f1071d1a03c95756ab7101447e14e57291fe7844e5",
+          "bytes": 1267
+        },
+        {
+          "path": "graphify/skills/codex/references/query.md",
+          "sha256": "e99011beeff0cf40dc1775b1e0cd2eab0e5f950deeeb8353ae01cbe57adbff00",
+          "bytes": 13724
+        },
+        {
+          "path": "graphify/skills/codex/references/transcribe.md",
+          "sha256": "676a1e39aa6d43cdfcc416ec56616e36f7bad74066a82bd33a9485515b9a865c",
+          "bytes": 3173
+        },
+        {
+          "path": "graphify/skills/codex/references/update.md",
+          "sha256": "c76b855ef9380d766b1a0b271b49bc7b40cf5b5b72558be1a021f99f9a9ea1cc",
+          "bytes": 11279
+        }
+      ],
+      "selected_roots": [
+        "LICENSE",
+        "LICENSE-MIT",
+        "NOTICE",
+        "graphify/skill-codex.md",
+        "graphify/skills/codex/references/add-watch.md",
+        "graphify/skills/codex/references/exports.md",
+        "graphify/skills/codex/references/extraction-spec.md",
+        "graphify/skills/codex/references/github-and-merge.md",
+        "graphify/skills/codex/references/hooks.md",
+        "graphify/skills/codex/references/query.md",
+        "graphify/skills/codex/references/transcribe.md",
+        "graphify/skills/codex/references/update.md"
+      ],
+      "complete_package_policy": "retain references/scripts/data/templates required by selected skill; never only SKILL.md",
+      "local_comparison": {
+        "matched": [],
+        "different": [],
+        "not_mapped": [
+          ".graphify_version",
+          "SKILL.md",
+          "references/add-watch.md",
+          "references/exports.md",
+          "references/extraction-spec.md",
+          "references/github-and-merge.md",
+          "references/hooks.md",
+          "references/query.md",
+          "references/transcribe.md",
+          "references/update.md"
+        ]
+      },
+      "modifications": [
+        "Namespaced on-demand adapter; no hooks/watchers/services/global auto activation.",
+        "Ponytail full mode remains coordinator policy."
+      ],
+      "rights_decision": "Scoped selected unchanged upstream assets permitted for redistribution or pinned acquisition with complete notices, per independent skill-rights audit; no restrictive exception found. External linked implementations and unknown local modifications excluded.",
+      "status": "selected rights-reviewed assets; adapter/native host validation pending",
+      "notes": [
+        "safishamsi/graphify redirects to Graphify-Labs/graphify.",
+        "Documented distribution graphifyy; templates graphify/skill*.md plus graphify/skills/*/references.",
+        "Retain Apache-2.0 LICENSE, LICENSE-MIT, NOTICE; local code-only extraction; no cloud/hooks/watchers."
+      ],
+      "rights_audit": "docs/rights-audit.md",
+      "destination_mapping": {
+        "graphify/skill-codex.md": "SKILL.md",
+        "graphify/skills/codex/references/": "references/"
+      },
+      "runtime": {
+        "distribution": "graphifyy",
+        "version": "0.9.97",
+        "source": "https://pypi.org/pypi/graphifyy/0.9.97/json",
+        "requires_python": ">=3.10",
+        "requires_dist": [
+          "networkx>=3.4",
+          "numpy>=1.21",
+          "rapidfuzz>=3.0",
+          "pyyaml>=6.0",
+          "tomli>=2.0.1; python_version < \"3.11\"",
+          "tree-sitter<0.26,>=0.25",
+          "tree-sitter-python<0.26,>=0.23",
+          "tree-sitter-javascript<0.26,>=0.23",
+          "tree-sitter-typescript<0.25,>=0.23",
+          "tree-sitter-go<0.26,>=0.23",
+          "tree-sitter-rust<0.25,>=0.23",
+          "tree-sitter-java<0.25,>=0.23",
+          "tree-sitter-groovy<0.3,>=0.1",
+          "tree-sitter-c<0.25,>=0.23",
+          "tree-sitter-cpp<0.25,>=0.23",
+          "tree-sitter-ruby<0.25,>=0.23",
+          "tree-sitter-c-sharp<0.25,>=0.23",
+          "tree-sitter-kotlin<2.0,>=1.0",
+          "tree-sitter-scala<0.27,>=0.23",
+          "tree-sitter-php<0.25,>=0.23",
+          "tree-sitter-swift<0.9,>=0.7",
+          "tree-sitter-lua<0.6,>=0.2",
+          "tree-sitter-zig<2.0,>=1.0",
+          "tree-sitter-powershell<0.28,>=0.26",
+          "tree-sitter-elixir<0.5,>=0.3",
+          "tree-sitter-objc<4.0,>=3.0",
+          "tree-sitter-julia<0.25,>=0.23",
+          "tree-sitter-verilog<2.0,>=1.0",
+          "tree-sitter-fortran<0.8,>=0.6",
+          "tree-sitter-bash<0.27,>=0.23",
+          "tree-sitter-json<0.26,>=0.23",
+          "mcp<3,>=1; extra == \"mcp\"",
+          "starlette<2,>=1.3.1; extra == \"mcp\"",
+          "anyio>=4.14.2; extra == \"mcp\"",
+          "neo4j; extra == \"neo4j\"",
+          "falkordb; extra == \"falkordb\"",
+          "pypdf>=6.19.0; extra == \"pdf\"",
+          "markdownify; extra == \"pdf\"",
+          "watchdog; extra == \"watch\"",
+          "matplotlib; extra == \"svg\"",
+          "pillow>=13.0.0; python_version >= \"3.11\" and extra == \"svg\"",
+          "pillow>=12.3.0; python_version < \"3.11\" and extra == \"svg\"",
+          "numpy>=2.0; python_version >= \"3.13\" and extra == \"svg\"",
+          "graspologic; python_version < \"3.13\" and extra == \"leiden\"",
+          "graspologic-native<2,>=1.3.1; python_version >= \"3.13\" and extra == \"leiden\"",
+          "python-docx; extra == \"office\"",
+          "openpyxl; extra == \"office\"",
+          "openpyxl; extra == \"google\"",
+          "psycopg[binary]; extra == \"postgres\"",
+          "tree-sitter-sql; extra == \"postgres\"",
+          "faster-whisper; python_version >= \"3.11\" and extra == \"video\"",
+          "yt-dlp>=2026.7.4; extra == \"video\"",
+          "openai; extra == \"kimi\"",
+          "tiktoken; extra == \"kimi\"",
+          "openai; extra == \"ollama\"",
+          "boto3; extra == \"bedrock\"",
+          "anthropic; extra == \"anthropic\"",
+          "openai; extra == \"gemini\"",
+          "tiktoken; extra == \"gemini\"",
+          "openai; extra == \"openai\"",
+          "tiktoken; extra == \"openai\"",
+          "jieba; python_version < \"3.12\" and extra == \"chinese\"",
+          "jieba-py<1,>=0.46.12; python_version >= \"3.12\" and extra == \"chinese\"",
+          "tree-sitter-sql; extra == \"sql\"",
+          "tree-sitter-pascal; extra == \"pascal\"",
+          "tree-sitter-dm<0.26,>=0.25; extra == \"dm\"",
+          "tree-sitter-hcl; extra == \"terraform\"",
+          "tree-sitter-ocaml; extra == \"ocaml\"",
+          "tree-sitter-commonlisp; extra == \"commonlisp\"",
+          "robotframework>=4.0; extra == \"robot\"",
+          "tree-sitter-vb-dotnet==0.3.0; extra == \"vbnet\"",
+          "tree-sitter-language-pack==0.11.0; extra == \"r\"",
+          "tree-sitter-language-pack==0.11.0; extra == \"erlang\"",
+          "tree-sitter-solidity==1.2.13; extra == \"solidity\"",
+          "mcp<3,>=1; extra == \"all\"",
+          "starlette<2,>=1.3.1; extra == \"all\"",
+          "anyio>=4.14.2; extra == \"all\"",
+          "neo4j; extra == \"all\"",
+          "falkordb; extra == \"all\"",
+          "pypdf>=6.19.0; extra == \"all\"",
+          "markdownify; extra == \"all\"",
+          "watchdog; extra == \"all\"",
+          "graspologic; python_version < \"3.13\" and extra == \"all\"",
+          "graspologic-native<2,>=1.3.1; python_version >= \"3.13\" and extra == \"all\"",
+          "python-docx; extra == \"all\"",
+          "openpyxl; extra == \"all\"",
+          "psycopg[binary]; extra == \"all\"",
+          "faster-whisper; python_version >= \"3.11\" and extra == \"all\"",
+          "yt-dlp>=2026.7.4; extra == \"all\"",
+          "matplotlib; extra == \"all\"",
+          "pillow>=13.0.0; python_version >= \"3.11\" and extra == \"all\"",
+          "pillow>=12.3.0; python_version < \"3.11\" and extra == \"all\"",
+          "numpy>=2.0; python_version >= \"3.13\" and extra == \"all\"",
+          "openai; extra == \"all\"",
+          "tiktoken; extra == \"all\"",
+          "boto3; extra == \"all\"",
+          "anthropic; extra == \"all\"",
+          "tree-sitter-sql; extra == \"all\"",
+          "jieba; python_version < \"3.12\" and extra == \"all\"",
+          "jieba-py<1,>=0.46.12; python_version >= \"3.12\" and extra == \"all\"",
+          "tree-sitter-dm<0.26,>=0.25; extra == \"all\"",
+          "tree-sitter-hcl; extra == \"all\"",
+          "tree-sitter-pascal; extra == \"all\"",
+          "tree-sitter-ocaml; extra == \"all\"",
+          "tree-sitter-commonlisp; extra == \"all\"",
+          "robotframework>=4.0; extra == \"all\"",
+          "tree-sitter-vb-dotnet==0.3.0; extra == \"all\"",
+          "tree-sitter-language-pack==0.11.0; extra == \"all\"",
+          "tree-sitter-solidity==1.2.13; extra == \"all\""
+        ],
+        "artifacts": [
+          {
+            "filename": "graphifyy-0.9.97-py3-none-any.whl",
+            "url": "https://files.pythonhosted.org/packages/91/a4/e6376b7979d6f5e3f6e190fc5b3342425982f19b6ca9ca1feb8fdea8ab82/graphifyy-0.9.97-py3-none-any.whl",
+            "sha256": "eb24dd7f93293753c001ca36e7304e0b52e86fe4124c2f531dcdb3d64865e01a",
+            "size": 1776583,
+            "type": "bdist_wheel"
+          },
+          {
+            "filename": "graphifyy-0.9.97.tar.gz",
+            "url": "https://files.pythonhosted.org/packages/00/45/7ebc7fd53e8bf85718e294a38eec36a0f7c49b7eb1db2dce1484c51a6778/graphifyy-0.9.97.tar.gz",
+            "sha256": "562a9007caa96419f33dbca007647374b6986bde486021b7475e2566d9c5904f",
+            "size": 3029095,
+            "type": "sdist"
+          }
+        ],
+        "install_argv": [
+          "{runtime_python}",
+          "-m",
+          "pip",
+          "install",
+          "--require-hashes",
+          "-r",
+          "{reviewed_runtime_lock}"
+        ],
+        "probe_argv": [
+          "{graphify_executable}",
+          "--version"
+        ],
+        "status": "ready",
+        "blockers": [],
+        "policy": "Provision separately from 16 phase tools in package-owned isolated environment; never auto-install on skill invocation; full installation cannot succeed while blocked.",
+        "verification": "Windows AMD64 Python3.12.14: fresh hash-locked installation, code-only extraction, authenticated repeat, doctor, tamper denied before execution. Other modes/platforms unverified."
+      }
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "upstream": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "version": "v2.15.0",
+      "source": "https://codeload.github.com/nextlevelbuilder/ui-ux-pro-max-skill/tar.gz/v2.15.0",
+      "sha256": "633f8b71a7bea2e354ac0792ed2ffde0b7995cbf4eac2c852235e1f8f46400f6",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "acquisition": "download pinned archive; verify SHA256 before safe extraction; no install scripts run in research",
+      "package_assets": [
+        {
+          "path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+          "sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9",
+          "bytes": 15969
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/app-interface.csv",
+          "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08",
+          "bytes": 11046
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/catalog-summary.json",
+          "sha256": "65fe0b64480a8a827738297d0a64ca55c627d4afcb774fe4555c59cea8dd6905",
+          "bytes": 2392
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/charts.csv",
+          "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a",
+          "bytes": 23365
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/colors.csv",
+          "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c",
+          "bytes": 37940
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/data-provenance.json",
+          "sha256": "e82fb33ed49375a300e93d9c11ccd1c1493c999e84ee7ee295e527634786e2e0",
+          "bytes": 36686
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/google-font-licenses.json",
+          "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a",
+          "bytes": 433127
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/google-fonts.csv",
+          "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03",
+          "bytes": 747241
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/icons.csv",
+          "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc",
+          "bytes": 57945
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/landing.csv",
+          "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0",
+          "bytes": 25449
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/motion.csv",
+          "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb",
+          "bytes": 14679
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+          "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236",
+          "bytes": 823933
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/products.csv",
+          "sha256": "42473f75e8dde5987bdf89ce55d8c168091b80a356cae691dd60247d80720b70",
+          "bytes": 75623
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/react-performance.csv",
+          "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734",
+          "bytes": 15080
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/angular.csv",
+          "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553",
+          "bytes": 19863
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/astro.csv",
+          "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6",
+          "bytes": 14591
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+          "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258",
+          "bytes": 27327
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+          "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0",
+          "bytes": 14192
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+          "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee",
+          "bytes": 16551
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+          "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869",
+          "bytes": 33577
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+          "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a",
+          "bytes": 12295
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/laravel.csv",
+          "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9",
+          "bytes": 20163
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+          "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4",
+          "bytes": 18687
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+          "sha256": "c36ee8470926b4a0748d241363c71664c9969c2edbc62f7f72de0db73880fac6",
+          "bytes": 24106
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+          "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176",
+          "bytes": 23014
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+          "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5",
+          "bytes": 14049
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/react.csv",
+          "sha256": "2d2b9c198e875106a30f7ee68341a9ee0033cad60a7e130cf23152783e08aeda",
+          "bytes": 19036
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+          "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51",
+          "bytes": 23184
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+          "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db",
+          "bytes": 15078
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+          "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623",
+          "bytes": 15323
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/threejs.csv",
+          "sha256": "97542e0ba34915a0ff7578be20e1619495df47c95c8c1c39b83e3785e1de771f",
+          "bytes": 46051
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/uno.csv",
+          "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48",
+          "bytes": 30091
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/uwp.csv",
+          "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c",
+          "bytes": 24692
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/vue.csv",
+          "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95",
+          "bytes": 12813
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/winui.csv",
+          "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85",
+          "bytes": 27890
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+          "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7",
+          "bytes": 24158
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/styles.csv",
+          "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7",
+          "bytes": 149478
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/typography.csv",
+          "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8",
+          "bytes": 49997
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+          "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a",
+          "bytes": 77360
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+          "sha256": "ff81ec613f70ba9fc3fcce52dbe4ae35d44b2079dbe6dc066d2d6e38c28facd5",
+          "bytes": 27516
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/references/pro-rules.md",
+          "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23",
+          "bytes": 10909
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/references/quick-reference.md",
+          "sha256": "0609bc7c89dacb40472465d8fc14257b56b2c43439660fc8d6fa3b8c022e1876",
+          "bytes": 24526
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/scripts/core.py",
+          "sha256": "e544826963efefce3c59b65e18d83d92a5baf571f05458025bf1fa9021eced42",
+          "bytes": 41234
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/scripts/design_system.py",
+          "sha256": "6a94743c3362c9c7e6d1450b94f4014d9ea752e7b4e151f6f0bdb217e0544bf7",
+          "bytes": 70937
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+          "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913",
+          "bytes": 5824
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/scripts/search.py",
+          "sha256": "8373e2dd2d560d9853ec116140de0e0d5bee45a6abe5e041173c84e1c36a7f87",
+          "bytes": 9123
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
+          "sha256": "718ad4cbb227436015c9c2bc80fc583d6ed738b01c1a940ef85e350780d99f58",
+          "bytes": 52064
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+          "bytes": 1075
+        }
+      ],
+      "selected_roots": [
+        ".claude/skills/ui-ux-pro-max/SKILL.md",
+        ".claude/skills/ui-ux-pro-max/data/app-interface.csv",
+        ".claude/skills/ui-ux-pro-max/data/catalog-summary.json",
+        ".claude/skills/ui-ux-pro-max/data/charts.csv",
+        ".claude/skills/ui-ux-pro-max/data/colors.csv",
+        ".claude/skills/ui-ux-pro-max/data/data-provenance.json",
+        ".claude/skills/ui-ux-pro-max/data/google-font-licenses.json",
+        ".claude/skills/ui-ux-pro-max/data/google-fonts.csv",
+        ".claude/skills/ui-ux-pro-max/data/icons.csv",
+        ".claude/skills/ui-ux-pro-max/data/landing.csv",
+        ".claude/skills/ui-ux-pro-max/data/motion.csv",
+        ".claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+        ".claude/skills/ui-ux-pro-max/data/products.csv",
+        ".claude/skills/ui-ux-pro-max/data/react-performance.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/angular.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/astro.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/laravel.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/react.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/threejs.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/uno.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/uwp.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/vue.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/winui.csv",
+        ".claude/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+        ".claude/skills/ui-ux-pro-max/data/styles.csv",
+        ".claude/skills/ui-ux-pro-max/data/typography.csv",
+        ".claude/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+        ".claude/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+        ".claude/skills/ui-ux-pro-max/references/pro-rules.md",
+        ".claude/skills/ui-ux-pro-max/references/quick-reference.md",
+        ".claude/skills/ui-ux-pro-max/scripts/core.py",
+        ".claude/skills/ui-ux-pro-max/scripts/design_system.py",
+        ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+        ".claude/skills/ui-ux-pro-max/scripts/search.py",
+        ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
+        "LICENSE"
+      ],
+      "complete_package_policy": "retain references/scripts/data/templates required by selected skill; never only SKILL.md",
+      "local_comparison": {
+        "matched": [],
+        "different": [
+          "SKILL.md",
+          "data/app-interface.csv",
+          "data/catalog-summary.json",
+          "data/charts.csv",
+          "data/colors.csv",
+          "data/data-provenance.json",
+          "data/google-font-licenses.json",
+          "data/google-fonts.csv",
+          "data/icons.csv",
+          "data/landing.csv",
+          "data/motion.csv",
+          "data/phosphor-icons-upstream.json",
+          "data/products.csv",
+          "data/react-performance.csv",
+          "data/styles.csv",
+          "data/typography.csv",
+          "data/ui-reasoning.csv",
+          "data/ux-guidelines.csv",
+          "references/pro-rules.md",
+          "references/quick-reference.md",
+          "scripts/core.py",
+          "scripts/design_system.py",
+          "scripts/reasoning_contract.py",
+          "scripts/search.py",
+          "scripts/validate_data.py",
+          "data/stacks/angular.csv",
+          "data/stacks/astro.csv",
+          "data/stacks/avalonia.csv",
+          "data/stacks/flutter.csv",
+          "data/stacks/html-tailwind.csv",
+          "data/stacks/javafx.csv",
+          "data/stacks/jetpack-compose.csv",
+          "data/stacks/laravel.csv",
+          "data/stacks/nextjs.csv",
+          "data/stacks/nuxt-ui.csv",
+          "data/stacks/nuxtjs.csv",
+          "data/stacks/react-native.csv",
+          "data/stacks/react.csv",
+          "data/stacks/shadcn.csv",
+          "data/stacks/svelte.csv",
+          "data/stacks/swiftui.csv",
+          "data/stacks/threejs.csv",
+          "data/stacks/uno.csv",
+          "data/stacks/uwp.csv",
+          "data/stacks/vue.csv",
+          "data/stacks/winui.csv",
+          "data/stacks/wpf.csv"
+        ],
+        "not_mapped": []
+      },
+      "modifications": [
+        "Namespaced on-demand adapter; no hooks/watchers/services/global auto activation.",
+        "Ponytail full mode remains coordinator policy."
+      ],
+      "rights_decision": "Scoped selected unchanged upstream assets permitted for redistribution or pinned acquisition with complete notices, per independent skill-rights audit; no restrictive exception found. External linked implementations and unknown local modifications excluded.",
+      "status": "selected rights-reviewed assets; adapter/native host validation pending",
+      "rights_audit": "docs/rights-audit.md",
+      "catalog_boundary": "Metadata catalogs only; no font binaries, SVG artwork or icon implementations. Retain google-font-licenses.json, phosphor-icons-upstream.json, data-provenance.json and unresolved-family exclusions."
+    }
+  ]
+}

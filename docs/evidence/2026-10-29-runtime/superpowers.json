@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-29",
+  "platform": "Windows AMD64 Python3.12.14",
+  "tool": "superpowers",
+  "version": "v7.0.1",
+  "artifact_sha256": "2295dd270d929ddbe3f82e43ab5cc6e3dfb4afdbfb56225347394491d34d747d",
+  "steps": {
+    "install": {
+      "status": "blocked",
+      "reason": "runtime provisioning and diagnostics incomplete",
+      "tools": [
+        {
+          "tool_id": "superpowers",
+          "version": "v7.0.1",
+          "acquired": true,
+          "installed": true,
+          "smoke_tested": true,
+          "configured": false,
+          "project_integrated": false,
+          "status": "blocked",
+          "reason": "complete instruction runtime verified; native behavior is separate",
+          "owned_files": {},
+          "evidence": [
+            "fifteen complete skill trees and license",
+            "private instruction inventory"
+          ]
+        }
+      ]
+    },
+    "resume": {
+      "status": "blocked",
+      "reason": "runtime provisioning and diagnostics incomplete",
+      "tools": [
+        {
+          "tool_id": "superpowers",
+          "version": "v7.0.1",
+          "acquired": true,
+          "installed": true,
+          "smoke_tested": true,
+          "configured": false,
+          "project_integrated": false,
+          "status": "blocked",
+          "reason": "complete instruction runtime verified; native behavior is separate",
+          "owned_files": {},
+          "evidence": [
+            "fifteen complete skill trees and license",
+            "private instruction inventory"
+          ]
+        }
+      ]
+    },
+    "doctor": {
+      "status": "blocked",
+      "reason": "runtime provisioning and diagnostics incomplete",
+      "tools": [
+        {
+          "tool_id": "superpowers",
+          "version": "v7.0.1",
+          "acquired": true,
+          "installed": true,
+          "smoke_tested": true,
+          "configured": false,
+          "project_integrated": false,
+          "status": "blocked",
+          "reason": "complete instruction runtime verified; native behavior is separate",
+          "owned_files": {},
+          "evidence": [
+            "fifteen complete skill trees and license",
+            "private instruction inventory"
+          ],
+          "requested_version": "v7.0.1"
+        }
+      ]
+    },
+    "update": {
+      "status": "blocked",
+      "assets_status": "updated",
+      "reason": "asset generation committed; runtime readiness is reported separately"
+    },
+    "rollback": {
+      "status": "blocked",
+      "assets_status": "rolled-back",
+      "reason": "asset generation committed; runtime readiness is reported separately"
+    },
+    "uninstall": {
+      "status": "complete",
+      "reason": "owned installation uninstalled",
+      "preserved": [],
+      "shared_resources": [],
+      "owned_files": {}
+    }
+  },
+  "limits": [
+    "Acquisition used cached exact upstream archive; installer rechecked artifact length and SHA256.",
+    "No native host behavioral test or hook/plugin installation."
+  ]
+}

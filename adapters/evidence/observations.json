@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-28",
+  "os": "Windows AMD64",
+  "source_checks": "7 unittest checks passed; structural only",
+  "uiux": {
+    "status": "passed",
+    "query": "keyboard focus modal",
+    "results": 2,
+    "runtime": "Python standard library"
+  },
+  "graphify": {
+    "installed_version": "0.9.76",
+    "pinned_required_version": "0.9.97",
+    "structural_extraction": "passed: 3 nodes, 3 edges; graphify.extract.collect_files/extract parallel=False on tiny sample.py",
+    "query": "passed: greet via CLI --graph",
+    "pinned_runtime": "blocked; not installed/tested",
+    "provider_calls": "none; no semantic/backend/key detection invoked"
+  },
+  "hosts": {
+    "claude-code": {
+      "asset_load": "not-run",
+      "explicit_only_behavior": "not-run",
+      "delegate_return": "not-run",
+      "model_permission_mcp_inheritance": "not-run",
+      "reason": "No verified safe metadata-only definition load route; no model calls or settings writes authorized"
+    },
+    "cursor": {
+      "asset_load": "not-run",
+      "explicit_only_behavior": "not-run",
+      "delegate_return": "not-run",
+      "model_permission_mcp_inheritance": "not-run",
+      "reason": "client unavailable"
+    },
+    "codex": {
+      "asset_load": "not-run",
+      "explicit_only_behavior": "not-run",
+      "delegate_return": "not-run",
+      "model_permission_mcp_inheritance": "not-run",
+      "reason": "No verified safe metadata-only definition load route; no model calls or settings writes authorized"
+    }
+  },
+  "non_windows": "not-run",
+  "release": "NO-GO"
+}

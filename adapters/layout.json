@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "canonical_workflow": "skills/agentic-sdlc",
+  "dependencies": "skills/dependencies",
+  "hosts": [
+    {
+      "id": "claude-code",
+      "adapter": "adapters/claude",
+      "skill_project_path": ".claude/skills/{name}/SKILL.md",
+      "skill_user_path": "~/.claude/skills/{name}/SKILL.md",
+      "specialist_project_path": ".claude/agents/{name}.md",
+      "specialist_user_path": "~/.claude/agents/{name}.md",
+      "canonical_destination": "{skill_root}/agentic-sdlc/workflow",
+      "dependency_destination": "{skill_root}/{namespaced_dependency}",
+      "dependency_policy": {
+        "frontmatter": {
+          "disable-model-invocation": false
+        }
+      },
+      "dependency_scope": "Callable only when needed by an already user-invoked SDLC workflow; no separate user invocation required. Scope is descriptive/instructional, not a host permission boundary."
+    },
+    {
+      "id": "cursor",
+      "adapter": "adapters/cursor",
+      "skill_project_path": ".cursor/skills/{name}/SKILL.md",
+      "skill_user_path": "~/.cursor/skills/{name}/SKILL.md",
+      "specialist_project_path": ".cursor/agents/{name}.md",
+      "specialist_user_path": "~/.cursor/agents/{name}.md",
+      "canonical_destination": "{skill_root}/agentic-sdlc/workflow",
+      "dependency_destination": "{skill_root}/{namespaced_dependency}",
+      "dependency_policy": {
+        "frontmatter": {
+          "disable-model-invocation": false
+        }
+      },
+      "dependency_scope": "Callable only when needed by an already user-invoked SDLC workflow; no separate user invocation required. Scope is descriptive/instructional, not a host permission boundary."
+    },
+    {
+      "id": "codex",
+      "adapter": "adapters/codex",
+      "skill_project_path": ".agents/skills/{name}/SKILL.md",
+      "skill_user_path": "~/.agents/skills/{name}/SKILL.md",
+      "specialist_project_path": ".codex/agents/{name}.toml",
+      "specialist_user_path": "~/.codex/agents/{name}.toml",
+      "canonical_destination": "{skill_root}/agentic-sdlc/workflow",
+      "dependency_destination": "{skill_root}/{namespaced_dependency}",
+      "dependency_policy": {
+        "openai_yaml": {
+          "policy": {
+            "allow_implicit_invocation": true
+          }
+        }
+      },
+      "dependency_scope": "Callable only when needed by an already user-invoked SDLC workflow; no separate user invocation required. Scope is descriptive/instructional, not a host permission boundary."
+    }
+  ],
+  "canonical_entry_mapping": {
+    "SKILL.md": "WORKFLOW.md"
+  }
+}

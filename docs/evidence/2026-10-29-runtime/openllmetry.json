@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-29",
+  "platform": "Windows AMD64 CPython3.12.14",
+  "tool": "openllmetry",
+  "version": "0.62.4",
+  "artifact_sha256": "0f7bb433ca1324ab55d099c6aa583c9e7ed1f4d6ad8942ead964965c54b94295",
+  "lock_sha256": "220865b5cf30137cec121a2524e669f003442a428dfaea155e369ada2ae1aaa4",
+  "bundled_wheels": [
+    {
+      "path": "toolkit/wheels/cuid-0.4-py2.py3-none-any.whl",
+      "sha256": "9210bffe5e4e29dff947ce82297061c84818e024a7019ca35c222589ec5dcfa6",
+      "bytes": 4823
+    }
+  ],
+  "audit": {
+    "date": "2026-10-29",
+    "pairs": 85,
+    "affected": []
+  },
+  "steps": {
+    "install": {
+      "status": "blocked",
+      "reason": "runtime provisioning and diagnostics incomplete",
+      "tools": [
+        {
+          "tool_id": "openllmetry",
+          "version": "0.62.4",
+          "acquired": true,
+          "installed": true,
+          "smoke_tested": true,
+          "configured": false,
+          "project_integrated": false,
+          "status": "blocked",
+          "reason": "configuration and integration need setup",
+          "owned_files": {},
+          "evidence": []
+        }
+      ]
+    },
+    "resume": {
+      "status": "blocked",
+      "reason": "runtime provisioning and diagnostics incomplete",
+      "tools": [
+        {
+          "tool_id": "openllmetry",
+          "version": "0.62.4",
+          "acquired": true,
+          "installed": true,
+          "smoke_tested": true,
+          "configured": false,
+          "project_integrated": false,
+          "status": "blocked",
+          "reason": "configuration and integration need setup",
+          "owned_files": {},
+          "evidence": [
+            "independent private runtime inventory",
+            "diagnostic probe"
+          ]
+        }
+      ]
+    },
+    "doctor": {
+      "status": "blocked",
+      "reason": "runtime provisioning and diagnostics incomplete",
+      "tools": [
+        {
+          "tool_id": "openllmetry",
+          "version": "0.62.4",
+          "acquired": true,
+          "installed": true,
+          "smoke_tested": true,
+          "configured": false,
+          "project_integrated": false,
+          "status": "blocked",
+          "reason": "configuration and integration need setup",
+          "owned_files": {},
+          "evidence": [
+            "independent private runtime inventory",
+            "diagnostic probe"
+          ],
+          "requested_version": "0.62.4"
+        }
+      ]
+    },
+    "local-operation": {
+      "exit": 0,
+      "stdout": "\u001b[31mWarning: Traceloop not initialized, make sure you call Traceloop.init()\r\n\u001b[39m\r\n0.62.4\r\n",
+      "stderr": ""
+    },
+    "update": {
+      "status": "blocked",
+      "assets_status": "updated",
+      "reason": "asset generation committed; runtime readiness is reported separately"
+    },
+    "rollback": {
+      "status": "blocked",
+      "assets_status": "rolled-back",
+      "reason": "asset generation committed; runtime readiness is reported separately"
+    },
+    "uninstall": {
+      "status": "complete",
+      "reason": "owned installation uninstalled",
+      "preserved": [],
+      "shared_resources": [],
+      "owned_files": {}
+    }
+  },
+  "limits": [
+    "No SDK export initialization, remote model calls, provider credentials or native application behavior tested.",
+    "Python library probes explicitly disable bytecode to preserve immutable runtime inventory."
+  ],
+  "recipe_path": "toolkit/locks/openllmetry/requirements.lock"
+}

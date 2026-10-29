@@ -1,0 +1,92 @@
+{
+  "upstream": "https://github.com/Graphify-Labs/graphify",
+  "version": "v0.9.97",
+  "archive_sha256": "c39e8e25d5134d80dcd97d0392f2e3fab7cb10bdec8128384162c08e998bf3d6",
+  "adaptation": "Namespaced SDLC-only entry; explicit authority and portable installed-root references. License text unchanged. Fixround1: callable within active workflow without separate helper invocation; reject unrelated activation.",
+  "assets": [
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "upstream_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "shipped_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "modified": false
+    },
+    {
+      "source": "LICENSE-MIT",
+      "destination": "LICENSE-MIT",
+      "upstream_sha256": "36ecff6bbb97aca1be64e95f42538cf796adde5864edac583e620643c096931a",
+      "shipped_sha256": "36ecff6bbb97aca1be64e95f42538cf796adde5864edac583e620643c096931a",
+      "modified": false
+    },
+    {
+      "source": "NOTICE",
+      "destination": "NOTICE",
+      "upstream_sha256": "3448ea175bba09f6fed8a743000139fb4c7112de83f164355b5540b158576621",
+      "shipped_sha256": "3448ea175bba09f6fed8a743000139fb4c7112de83f164355b5540b158576621",
+      "modified": false
+    },
+    {
+      "source": "graphify/skill-codex.md",
+      "destination": "SKILL.md",
+      "upstream_sha256": "e1150326f0ed06db45e735ecb92b9d3048c9d165d61f61c5ecc728758a9c21f2",
+      "shipped_sha256": "76e994a1b55dec74f523fa11c09fb148cf33c438a2c59b4ab7c14784b9f04345",
+      "modified": true
+    },
+    {
+      "source": "graphify/skills/codex/references/add-watch.md",
+      "destination": "references/add-watch.md",
+      "upstream_sha256": "1e77351815547334c7e030f018dba513b303d397bf73d11fac47df03ace3b3f4",
+      "shipped_sha256": "1e77351815547334c7e030f018dba513b303d397bf73d11fac47df03ace3b3f4",
+      "modified": false
+    },
+    {
+      "source": "graphify/skills/codex/references/exports.md",
+      "destination": "references/exports.md",
+      "upstream_sha256": "c39a2f8062be9a5ac319220d6e66ca586ed0b0798292b1321206834be74c1b33",
+      "shipped_sha256": "c39a2f8062be9a5ac319220d6e66ca586ed0b0798292b1321206834be74c1b33",
+      "modified": false
+    },
+    {
+      "source": "graphify/skills/codex/references/extraction-spec.md",
+      "destination": "references/extraction-spec.md",
+      "upstream_sha256": "e14c596c524ae8c41c796788af00ae9574ff7c5fe131ecbd2ca9def92a19a9cb",
+      "shipped_sha256": "e14c596c524ae8c41c796788af00ae9574ff7c5fe131ecbd2ca9def92a19a9cb",
+      "modified": false
+    },
+    {
+      "source": "graphify/skills/codex/references/github-and-merge.md",
+      "destination": "references/github-and-merge.md",
+      "upstream_sha256": "e5ebd90c7686f50363ff7a535556bc2f596d4c47ec1e6c8b95e11e36a0dfea2b",
+      "shipped_sha256": "e5ebd90c7686f50363ff7a535556bc2f596d4c47ec1e6c8b95e11e36a0dfea2b",
+      "modified": false
+    },
+    {
+      "source": "graphify/skills/codex/references/hooks.md",
+      "destination": "references/hooks.md",
+      "upstream_sha256": "b9a4e9f66813c6fc720589f1071d1a03c95756ab7101447e14e57291fe7844e5",
+      "shipped_sha256": "b9a4e9f66813c6fc720589f1071d1a03c95756ab7101447e14e57291fe7844e5",
+      "modified": false
+    },
+    {
+      "source": "graphify/skills/codex/references/query.md",
+      "destination": "references/query.md",
+      "upstream_sha256": "e99011beeff0cf40dc1775b1e0cd2eab0e5f950deeeb8353ae01cbe57adbff00",
+      "shipped_sha256": "e99011beeff0cf40dc1775b1e0cd2eab0e5f950deeeb8353ae01cbe57adbff00",
+      "modified": false
+    },
+    {
+      "source": "graphify/skills/codex/references/transcribe.md",
+      "destination": "references/transcribe.md",
+      "upstream_sha256": "676a1e39aa6d43cdfcc416ec56616e36f7bad74066a82bd33a9485515b9a865c",
+      "shipped_sha256": "676a1e39aa6d43cdfcc416ec56616e36f7bad74066a82bd33a9485515b9a865c",
+      "modified": false
+    },
+    {
+      "source": "graphify/skills/codex/references/update.md",
+      "destination": "references/update.md",
+      "upstream_sha256": "c76b855ef9380d766b1a0b271b49bc7b40cf5b5b72558be1a021f99f9a9ea1cc",
+      "shipped_sha256": "c76b855ef9380d766b1a0b271b49bc7b40cf5b5b72558be1a021f99f9a9ea1cc",
+      "modified": false
+    }
+  ]
+}

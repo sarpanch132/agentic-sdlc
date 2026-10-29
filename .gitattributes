@@ -1,0 +1,9 @@
+# Pinned skill assets must retain exact bytes across host checkout defaults.
+skills/dependencies/** -text
+adapters/** text eol=lf
+agents/** text eol=lf
+skills/agentic-sdlc/** text eol=lf
+
+# Internal implementation journals are not part of the public source package.
+.superpowers/ export-ignore
+.superpowers/** export-ignore

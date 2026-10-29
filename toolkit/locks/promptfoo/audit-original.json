@@ -1,0 +1,181 @@
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "@azure/identity": {
+      "name": "@azure/identity",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@azure/msal-node"
+      ],
+      "effects": [],
+      "range": ">=4.13.1",
+      "nodes": [
+        "node_modules/@azure/identity"
+      ],
+      "fixAvailable": true
+    },
+    "@azure/msal-node": {
+      "name": "@azure/msal-node",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1243111,
+          "name": "@azure/msal-node",
+          "dependency": "@azure/msal-node",
+          "title": "MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint",
+          "url": "https://github.com/advisories/GHSA-xcx6-jx8p-x3h5",
+          "severity": "high",
+          "cwe": [
+            "CWE-346"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "range": ">=5.0.0-beta.0 <7.1.0"
+        }
+      ],
+      "effects": [
+        "@azure/identity"
+      ],
+      "range": "5.0.0-beta.0 - 7.0.2",
+      "nodes": [
+        "node_modules/@azure/identity/node_modules/@azure/msal-node"
+      ],
+      "fixAvailable": true
+    },
+    "basic-ftp": {
+      "name": "basic-ftp",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1240853,
+          "name": "basic-ftp",
+          "dependency": "basic-ftp",
+          "title": "basic-ftp: Quadratic-time CPU denial of service in Client.list() Unix directory-listing parser (RE_LINE backtracking)",
+          "url": "https://github.com/advisories/GHSA-c475-qrg2-pj4r",
+          "severity": "high",
+          "cwe": [
+            "CWE-1333"
+          ],
+          "cvss": {
+            "score": 0,
+            "vectorString": null
+          },
+          "range": "<=6.2.0"
+        }
+      ],
+      "effects": [
+        "get-uri"
+      ],
+      "range": "<=6.2.0",
+      "nodes": [
+        "node_modules/basic-ftp"
+      ],
+      "fixAvailable": {
+        "name": "promptfoo",
+        "version": "0.28.2",
+        "isSemVerMajor": true
+      }
+    },
+    "get-uri": {
+      "name": "get-uri",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "basic-ftp"
+      ],
+      "effects": [
+        "pac-proxy-agent"
+      ],
+      "range": ">=5.0.0",
+      "nodes": [
+        "node_modules/get-uri"
+      ],
+      "fixAvailable": {
+        "name": "promptfoo",
+        "version": "0.28.2",
+        "isSemVerMajor": true
+      }
+    },
+    "pac-proxy-agent": {
+      "name": "pac-proxy-agent",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "get-uri"
+      ],
+      "effects": [
+        "proxy-agent"
+      ],
+      "range": ">=6.0.0",
+      "nodes": [
+        "node_modules/pac-proxy-agent"
+      ],
+      "fixAvailable": {
+        "name": "promptfoo",
+        "version": "0.28.2",
+        "isSemVerMajor": true
+      }
+    },
+    "promptfoo": {
+      "name": "promptfoo",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "proxy-agent"
+      ],
+      "effects": [],
+      "range": ">=0.29.0",
+      "nodes": [
+        "node_modules/promptfoo"
+      ],
+      "fixAvailable": {
+        "name": "promptfoo",
+        "version": "0.28.2",
+        "isSemVerMajor": true
+      }
+    },
+    "proxy-agent": {
+      "name": "proxy-agent",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "pac-proxy-agent"
+      ],
+      "effects": [
+        "promptfoo"
+      ],
+      "range": ">=6.0.0",
+      "nodes": [
+        "node_modules/proxy-agent"
+      ],
+      "fixAvailable": {
+        "name": "promptfoo",
+        "version": "0.28.2",
+        "isSemVerMajor": true
+      }
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 7,
+      "critical": 0,
+      "total": 7
+    },
+    "dependencies": {
+      "prod": 410,
+      "dev": 0,
+      "optional": 275,
+      "peer": 1,
+      "peerOptional": 0,
+      "total": 685
+    }
+  }
+}

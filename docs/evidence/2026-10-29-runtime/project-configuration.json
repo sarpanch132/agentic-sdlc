@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-29",
+  "platform": "Windows AMD64 CPython3.12.14 Node24.18.0",
+  "configuration_mode": "local-only",
+  "application_acceptance": "not-tested",
+  "native_profile_checks": [
+    {
+      "tool": "spec-kit",
+      "version": "1.2.4",
+      "status": "passed",
+      "seconds": 6.2
+    },
+    {
+      "tool": "openspec",
+      "version": "1.15.0",
+      "status": "passed",
+      "seconds": 15.88
+    },
+    {
+      "tool": "promptfoo",
+      "version": "0.125.1",
+      "status": "passed",
+      "seconds": 49.62
+    },
+    {
+      "tool": "agno",
+      "version": "3.1.11",
+      "status": "passed",
+      "seconds": 3.03
+    },
+    {
+      "tool": "deepeval",
+      "version": "4.3.2",
+      "status": "passed",
+      "seconds": 8.67
+    },
+    {
+      "tool": "bentoml",
+      "version": "1.4.40",
+      "status": "passed",
+      "seconds": 3.83
+    },
+    {
+      "tool": "mlflow",
+      "version": "3.17.2",
+      "status": "passed",
+      "seconds": 21.34
+    },
+    {
+      "tool": "openllmetry",
+      "version": "0.62.4",
+      "status": "passed",
+      "seconds": 11.27
+    },
+    {
+      "tool": "graphify",
+      "version": "0.9.97",
+      "status": "passed",
+      "seconds": 4.17
+    }
+  ],
+  "instruction_profile": {
+    "tool": "superpowers",
+    "result": "passed",
+    "scope": "fifteen full installed skill trees and license; native assistant behavior unverified"
+  },
+  "managed_cli_checks": {
+    "tools": [
+      "graphify",
+      "openspec",
+      "superpowers"
+    ],
+    "fresh_authenticated_install": "passed",
+    "configure": "passed",
+    "project-doctor": "passed",
+    "regular_doctor_configuration_reporting": "passed",
+    "modified_configuration_rejected": "passed",
+    "uninstall_preserves_project_outputs": "passed"
+  },
+  "focused_tests": {
+    "run": 22,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 75.939
+  },
+  "limits": [
+    "Native operations for nine profiles used prior task-owned scratch environments, without adopting them as installed runtimes.",
+    "The fresh managed CLI proof covered Superpowers, OpenSpec and Graphify; it did not install every runtime again.",
+    "Spec Kit and OpenSpec were checked in separate workspaces.",
+    "Application/provider/deployment integration, all-host behavior and non-Windows compatibility remain unverified.",
+    "Seven existing security/dependency/Docker gates remain unchanged; GitHub upload is deferred."
+  ],
+  "regression": {
+    "commit": "0319d7d5a78e6dc17e9cfbebd779d3b7c72e8dc4",
+    "run": 166,
+    "passed": 163,
+    "skipped": 3,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 497.407
+  },
+  "packaged_source": {
+    "commit": "0319d7d5a78e6dc17e9cfbebd779d3b7c72e8dc4",
+    "frozen_payloads_checked": 30,
+    "asset_hashes_checked": 116,
+    "snapshot_tests": 34,
+    "failures": 0,
+    "source_zip_sha256": "de9968fc92301f44ad2cac3c04aa4a55e76995db36ef1429fc3c41a5a0ea6eb8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "runtime-audit",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "promptfoo": "0.125.1"
+  },
+  "overrides": {
+    "basic-ftp": "6.2.3",
+    "@azure/msal-node": "7.1.2"
+  }
+}

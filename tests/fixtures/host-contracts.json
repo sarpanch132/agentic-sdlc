@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "scope": "Candidate documented schemas only; fixtures are not native load or behavioral proof.",
+  "hosts": [
+    {
+      "id": "claude-code",
+      "client_version": "2.1.247 (Claude Code)",
+      "skill_project_path": ".claude/skills/{name}/SKILL.md",
+      "skill_user_path": "~/.claude/skills/{name}/SKILL.md",
+      "explicit_policy": {
+        "disable-model-invocation": true
+      },
+      "specialist_project_path": ".claude/agents/{name}.md",
+      "specialist_format": "Markdown with YAML frontmatter",
+      "specialist_fields": [
+        "name",
+        "description"
+      ],
+      "optional_fields": [
+        "tools",
+        "model",
+        "permissionMode"
+      ],
+      "model_policy": "inherit",
+      "source": "https://code.claude.com/docs/en/sub-agents",
+      "skill_source": "https://code.claude.com/docs/en/skills"
+    },
+    {
+      "id": "cursor",
+      "client_version": "not detected on PATH",
+      "skill_project_path": ".cursor/skills/{name}/SKILL.md",
+      "skill_user_path": "~/.cursor/skills/{name}/SKILL.md",
+      "explicit_policy": {
+        "disable-model-invocation": true
+      },
+      "specialist_project_path": ".cursor/agents/{name}.md",
+      "specialist_format": "Markdown with YAML frontmatter",
+      "specialist_fields": [
+        "name",
+        "description"
+      ],
+      "optional_fields": [
+        "model",
+        "readonly"
+      ],
+      "model_policy": "inherit",
+      "source": "https://cursor.com/docs/subagents",
+      "skill_source": "https://cursor.com/docs/skills"
+    },
+    {
+      "id": "codex",
+      "client_version": "codex-cli 0.163.0-alpha.11.2",
+      "skill_project_path": ".agents/skills/{name}/SKILL.md",
+      "skill_user_path": "~/.agents/skills/{name}/SKILL.md",
+      "explicit_policy_path": "agents/openai.yaml",
+      "explicit_policy": {
+        "policy": {
+          "allow_implicit_invocation": false
+        }
+      },
+      "specialist_project_path": ".codex/agents/{name}.toml",
+      "specialist_format": "TOML",
+      "specialist_fields": [
+        "name",
+        "description",
+        "developer_instructions"
+      ],
+      "optional_fields": [],
+      "model_policy": "omit override; inherit host model",
+      "source": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+      "skill_source": "https://learn.chatgpt.com/docs/build-skills"
+    }
+  ],
+  "trust_policy": "Preserve parent permissions and existing MCP; no inline servers, startup hooks, or permission bypass."
+}

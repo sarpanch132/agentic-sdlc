@@ -1,0 +1,52 @@
+[
+  {
+    "argv": [
+      "<local Claude executable>",
+      "--version"
+    ],
+    "exit_code": 0,
+    "evidence_path": "docs/evidence/2026-10-28-task-2/claude-version.txt"
+  },
+  {
+    "argv": [
+      "<local Codex executable>",
+      "--version"
+    ],
+    "exit_code": 0,
+    "evidence_path": "docs/evidence/2026-10-28-task-2/codex-version.txt"
+  },
+  {
+    "argv": [
+      "<local Claude executable>",
+      "--help"
+    ],
+    "exit_code": 0,
+    "evidence_path": "docs/evidence/2026-10-28-task-2/claude-help.txt"
+  },
+  {
+    "argv": [
+      "<local Claude executable>",
+      "agents",
+      "--help"
+    ],
+    "exit_code": 0,
+    "evidence_path": "docs/evidence/2026-10-28-task-2/claude-agents-help.txt"
+  },
+  {
+    "argv": [
+      "<local Codex executable>",
+      "--help"
+    ],
+    "exit_code": 0,
+    "evidence_path": "docs/evidence/2026-10-28-task-2/codex-help.txt"
+  },
+  {
+    "argv": [
+      "<local Codex executable>",
+      "debug",
+      "--help"
+    ],
+    "exit_code": 0,
+    "evidence_path": "docs/evidence/2026-10-28-task-2/codex-debug-help.txt"
+  }
+]

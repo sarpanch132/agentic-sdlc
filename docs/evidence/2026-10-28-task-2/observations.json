@@ -1,0 +1,192 @@
+[
+  {
+    "subject": "claude-code",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "2.1.247 (Claude Code)",
+    "check": "asset-load",
+    "result": "not-run",
+    "command_or_action": "No safe proven offline inspection route; no client session or provider call attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "claude-code",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "2.1.247 (Claude Code)",
+    "check": "delegate-return",
+    "result": "not-run",
+    "command_or_action": "No safe proven offline inspection route; no client session or provider call attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "claude-code",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "2.1.247 (Claude Code)",
+    "check": "mcp-metadata",
+    "result": "not-run",
+    "command_or_action": "No safe proven offline inspection route; no client session or provider call attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "cursor",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not detected on PATH",
+    "check": "asset-load",
+    "result": "not-run",
+    "command_or_action": "Client unavailable on PATH; no launch attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "cursor",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not detected on PATH",
+    "check": "delegate-return",
+    "result": "not-run",
+    "command_or_action": "Client unavailable on PATH; no launch attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "cursor",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not detected on PATH",
+    "check": "mcp-metadata",
+    "result": "not-run",
+    "command_or_action": "Client unavailable on PATH; no launch attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "codex",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "codex-cli 0.163.0-alpha.11.2",
+    "check": "asset-load",
+    "result": "not-run",
+    "command_or_action": "No safe proven offline inspection route; no client session or provider call attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "codex",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "codex-cli 0.163.0-alpha.11.2",
+    "check": "delegate-return",
+    "result": "not-run",
+    "command_or_action": "No safe proven offline inspection route; no client session or provider call attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "codex",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "codex-cli 0.163.0-alpha.11.2",
+    "check": "mcp-metadata",
+    "result": "not-run",
+    "command_or_action": "No safe proven offline inspection route; no client session or provider call attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "claude-code",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "2.1.247 (Claude Code)",
+    "check": "cli-help",
+    "result": "pass",
+    "command_or_action": "claude --help",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/claude-help.txt"
+  },
+  {
+    "subject": "codex",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "codex-cli 0.163.0-alpha.11.2",
+    "check": "cli-help",
+    "result": "pass",
+    "command_or_action": "codex --help",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/codex-help.txt"
+  },
+  {
+    "subject": "metagpt",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: No-build hash lock blocked by source-only fire; additional Python 3.11 required.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "openhands",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: Fresh dependency audit security-blocked; secondary uvx runtime locks unresolved.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "cline",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: Fresh dependency audit security-blocked.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "langflow",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: No-build hash lock blocked by source-only IBM dependencies.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "helicone",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: Docker absent from PATH; no image pull or service startup attempted.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "promptfoo",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: Fresh dependency audit security-blocked.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "openllmetry",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: No-build hash lock blocked by source-only cuid.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  },
+  {
+    "subject": "superpowers",
+    "os": "Windows",
+    "architecture": "AMD64",
+    "client_version": "not installed by Task 2",
+    "check": "runtime-probe",
+    "result": "not-run",
+    "command_or_action": "No install/probe executed: Full catalog installation recipe pending.",
+    "evidence_path": "docs/evidence/2026-10-28-task-2/assessment.md"
+  }
+]

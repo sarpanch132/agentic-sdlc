@@ -1,0 +1,65 @@
+[
+  {
+    "helper": "brainstorming",
+    "hosts": [
+      "claude-code",
+      "cursor",
+      "codex"
+    ],
+    "request": "/agentic-sdlc Design an internal approval tool; requirements are complete but design alternatives remain.",
+    "precondition": "User explicitly invoked core; helper needed within approved scope and existing authority.",
+    "expected": "Resolve meaningful design uncertainty and obtain design approval before implementation. Coordinator can invoke agentic-sdlc-brainstorming directly.",
+    "separate_user_helper_invocation": false,
+    "must_not": [
+      "unrelated",
+      "activate core from unrelated requests",
+      "ask user to invoke every helper separately",
+      "bypass permissions",
+      "start services or external providers"
+    ],
+    "real_host_status": "not-run",
+    "static_policy_status": "checked by test_assets helper policy assertions"
+  },
+  {
+    "helper": "ui-ux-pro-max",
+    "hosts": [
+      "claude-code",
+      "cursor",
+      "codex"
+    ],
+    "request": "/agentic-sdlc Design an accessible settings screen after confirming requirements.",
+    "precondition": "User explicitly invoked core; helper needed within approved scope and existing authority.",
+    "expected": "Run a relevant public UIUX search only when interface design needs it. Coordinator can invoke agentic-sdlc-ui-ux-pro-max directly.",
+    "separate_user_helper_invocation": false,
+    "must_not": [
+      "unrelated",
+      "activate core from unrelated requests",
+      "ask user to invoke every helper separately",
+      "bypass permissions",
+      "start services or external providers"
+    ],
+    "real_host_status": "not-run",
+    "static_policy_status": "checked by test_assets helper policy assertions"
+  },
+  {
+    "helper": "graphify",
+    "hosts": [
+      "claude-code",
+      "cursor",
+      "codex"
+    ],
+    "request": "/agentic-sdlc Trace an approved cross-file code change in this repository.",
+    "precondition": "User explicitly invoked core; helper needed within approved scope and existing authority.",
+    "expected": "Query an existing relevant local graph or use local code-only extraction when warranted; report blocked runtime honestly. Coordinator can invoke agentic-sdlc-graphify directly.",
+    "separate_user_helper_invocation": false,
+    "must_not": [
+      "unrelated",
+      "activate core from unrelated requests",
+      "ask user to invoke every helper separately",
+      "bypass permissions",
+      "start services or external providers"
+    ],
+    "real_host_status": "not-run",
+    "static_policy_status": "checked by test_assets helper policy assertions"
+  }
+]

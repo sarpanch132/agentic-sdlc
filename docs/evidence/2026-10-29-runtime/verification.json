@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-29",
+  "platform": "Windows AMD64 CPython3.12.14 Node24.18.0",
+  "tests": {
+    "regression": {
+      "run": 147,
+      "skipped": 3,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 320.899,
+      "scope": "Full suite before final bytecode-probe correction; focused follow-up and real OpenLLMetry lifecycle validate that correction."
+    },
+    "focused_probe_follow_up": {
+      "run": 7,
+      "failures": 0
+    },
+    "final_catalog_and_probe_checks": {
+      "run": 46,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 3.372
+    }
+  },
+  "checks": [
+    {
+      "tool": "spec-kit",
+      "version": "1.2.4",
+      "artifact_sha256": "2d4272a808b0b70ec74e5fc8f4ba8cd14651aca8fa79dc9ddbad838d177ff23c",
+      "lock_sha256": "d247d0b9a5c6f722276bf551e456154e2cb32b945b5d4b13bdd6292d9b90a64d",
+      "local_check": "Installed CLI version/features JSON only; complete specification workflow unverified",
+      "local_evidence_sha256": "5eb0df95df059c180417b4f0acdd9834cac425d82e2602ca61558b85ec273c95",
+      "result": "passed"
+    },
+    {
+      "tool": "openspec",
+      "version": "1.15.0",
+      "artifact_sha256": "5c2274b7f5b2e52ebe8dc6c4d616837d0326a8c83eb7d3ca181539dedbf02644",
+      "lock_sha256": "51b1bf07437c6487a7b15a61ecdd941b23eafa8dbb86b450bb7b4c685741b848",
+      "local_check": "Synthetic project initialization with tools none, then list --json",
+      "local_evidence_sha256": "2a6df3c62badc9a05e93ec2c500a6ee997b4fe05aa0df86ac4d627213a3220ba",
+      "result": "passed"
+    },
+    {
+      "tool": "promptfoo",
+      "version": "0.125.1",
+      "artifact_sha256": "2db2ed847568f1e8f2f2391cb7cdfad901d20bf16a40f207933ad3c2ba0b49e9",
+      "lock_sha256": "11198df75be0b0ff5b99f9ebfb63cd73d8f5f8b55b085ee28accaf4cfe404c46",
+      "local_check": "Version plus one echo evaluation: one pass, zero errors; no remote provider",
+      "local_evidence_sha256": "7a2656f6841bae6b175690b23e4747baef63e340a6d43bbd5f94d408e23e293e",
+      "result": "passed"
+    },
+    {
+      "tool": "agno",
+      "version": "3.1.11",
+      "artifact_sha256": "5d7ff7aa4801d834e8116c022421b1573910aa261d6ee39da741da9dc5ed02fa",
+      "lock_sha256": "66302eeecfb9545f5d48d2d939c8b4f9399b11348b342322035ad30f0b78a260",
+      "local_check": "Fresh hash-locked environment plus model-free Agent/Message construction",
+      "local_evidence_sha256": "1cb8045c9c05a6c6d47d4c9db0631402fb57e1bc1aa7936b78b018162b3ea84c",
+      "result": "passed"
+    },
+    {
+      "tool": "bentoml",
+      "version": "1.4.40",
+      "artifact_sha256": "ba98c57c60f4ac0879cb8b0ae280ed42f96a26cccd0f83edcb8339d0634d9678",
+      "lock_sha256": "d6828a109de48b86d4fd259ae4ef62625393373b11b1bd198b64e26ddaf45004",
+      "local_check": "Fresh hash-locked environment plus local picklable model save/load/list",
+      "local_evidence_sha256": "b569bd15cebb91605968806378189c3024cf3d42aa7f73fb68f3b1bb51a86169",
+      "result": "passed"
+    },
+    {
+      "tool": "mlflow",
+      "version": "3.17.2",
+      "artifact_sha256": "4e44c03791beb518d8b0a40b0982d958c2634d902f46d67d7907c82107f21fac",
+      "lock_sha256": "e43ca40dcfd053d6e3610d62bc79db12f523c36b2c5057efbeb88677ff36d4a9",
+      "local_check": "Fresh hash-locked environment plus local SQLite parameter/metric write/read",
+      "local_evidence_sha256": "8abc6e5effc48ae46e310ebda722cdda47e4c657b794756567b2a903fd3d1a1e",
+      "result": "passed"
+    },
+    {
+      "tool": "deepeval",
+      "version": "4.3.2",
+      "artifact_sha256": "e0ea88a7a97f453b7b2e62550f5b2881cdc3c8397f93f985a6a161fd86e6d843",
+      "lock_sha256": "106195a5a632b9ab3b7567dca353618dd7b14d0a7f6222c65fa7d85ef0591cba",
+      "local_check": "Deterministic tool correctness with a model adapter that forbids calls",
+      "local_evidence_sha256": "4c50f8010d80629e1e741203d28175f69441d22fff50ad31b46e657fe9c8adaa",
+      "result": "passed"
+    }
+  ],
+  "mlflow_corrected_probe": {
+    "exit": 0,
+    "seconds": 57.66,
+    "stdout": "mlflow, version 3.17.2\r\n",
+    "stderr": "",
+    "timeout": 90
+  },
+  "limits": [
+    "The combined eight-runtime managed proof stopped at an MLflow 30-second timeout; its entire lifecycle was not rerun. The corrected CLI probe passed within 90 seconds.",
+    "Successful individual checks are not clean-device or native-host certification.",
+    "No full bundle release or GitHub publication."
+  ]
+}

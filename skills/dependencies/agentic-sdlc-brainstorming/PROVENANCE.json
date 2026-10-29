@@ -1,0 +1,71 @@
+{
+  "upstream": "https://github.com/obra/superpowers",
+  "version": "v7.0.1",
+  "archive_sha256": "2295dd270d929ddbe3f82e43ab5cc6e3dfb4afdbfb56225347394491d34d747d",
+  "adaptation": "Namespaced SDLC-only entry; explicit authority and portable installed-root references. License text unchanged. Fixround1: callable within active workflow without separate helper invocation; reject unrelated activation.",
+  "assets": [
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "upstream_sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "shipped_sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "modified": false
+    },
+    {
+      "source": "skills/brainstorming/SKILL.md",
+      "destination": "SKILL.md",
+      "upstream_sha256": "61a7ef918652108c76a3fd01e02dd92d39996c6b46d4cb2819cbd03f6c45e46a",
+      "shipped_sha256": "78fbe8beedd1dcb29608d35defb2cc91a656a0991294b630cec4438b51ba75cc",
+      "modified": true
+    },
+    {
+      "source": "skills/brainstorming/builder-check-prompt.md",
+      "destination": "builder-check-prompt.md",
+      "upstream_sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+      "shipped_sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+      "modified": false
+    },
+    {
+      "source": "skills/brainstorming/scripts/frame-template.html",
+      "destination": "scripts/frame-template.html",
+      "upstream_sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+      "shipped_sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+      "modified": false
+    },
+    {
+      "source": "skills/brainstorming/scripts/helper.js",
+      "destination": "scripts/helper.js",
+      "upstream_sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "shipped_sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "modified": false
+    },
+    {
+      "source": "skills/brainstorming/scripts/server.cjs",
+      "destination": "scripts/server.cjs",
+      "upstream_sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+      "shipped_sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+      "modified": false
+    },
+    {
+      "source": "skills/brainstorming/scripts/start-server.sh",
+      "destination": "scripts/start-server.sh",
+      "upstream_sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+      "shipped_sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+      "modified": false
+    },
+    {
+      "source": "skills/brainstorming/scripts/stop-server.sh",
+      "destination": "scripts/stop-server.sh",
+      "upstream_sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "shipped_sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "modified": false
+    },
+    {
+      "source": "skills/brainstorming/visual-companion.md",
+      "destination": "visual-companion.md",
+      "upstream_sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
+      "shipped_sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
+      "modified": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "review_head": "16a342e",
+  "findings": [
+    "P1 dependency policy blocks coordinator helper calls",
+    "P1 named Claude coordinator loses orchestration under review-only allowlist"
+  ],
+  "focused_red": {
+    "tests": 8,
+    "failures": 2,
+    "exit": 1
+  },
+  "focused_green": {
+    "tests": 8,
+    "failures": 0,
+    "exit": 0
+  },
+  "full_suite": {
+    "tests": 9,
+    "failures": 0,
+    "exit": 0
+  },
+  "host_behavior": "not-run",
+  "no_model_calls": true,
+  "no_host_settings_writes": true,
+  "helper_policy": "Core user-only; helpers callable and instructionally scoped to active user-invoked workflow",
+  "installed_canonical_entry": "workflow/WORKFLOW.md",
+  "sources": [
+    "https://code.claude.com/docs/en/skills#control-who-invokes-a-skill",
+    "https://code.claude.com/docs/en/sub-agents#restrict-which-tools-a-subagent-can-use",
+    "https://cursor.com/docs/skills",
+    "https://learn.chatgpt.com/docs/build-skills"
+  ]
+}

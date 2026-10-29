@@ -1,0 +1,9 @@
+Graph: work/task4/tiny/graphify-out/graph.json (3 nodes) | Traversal: BFS depth=2 | Start: ['greet()'] | 3 nodes found
+
+NODE greet() [src=work/task4/tiny/sample.py loc=L1 community=]
+NODE sample.py [src=work/task4/tiny/sample.py loc=L1 community=]
+NODE welcome() [src=work/task4/tiny/sample.py loc=L4 community=]
+EDGE sample.py --contains [EXTRACTED]--> greet() at=work/task4/tiny/sample.py:L1
+EDGE welcome() --calls [EXTRACTED context=call]--> greet() at=work/task4/tiny/sample.py:L5
+EDGE sample.py --contains [EXTRACTED]--> welcome() at=work/task4/tiny/sample.py:L4
+[graphify] note: this graph uses the pre-#1504 node-ID scheme; rebuild with `graphify extract --force` to get path-qualified IDs (fixes same-name-file collisions).
